@@ -16,14 +16,14 @@ r.connect('localhost', 28015).repl()
 
 db_name='demo'
 
-# r.db_create(db_name).run()
-# d.table_create(db_name,'inventory')
-# d.table_create(db_name,'revenue')
-# d.table_create(db_name,'price')
-# d.table_create(db_name,'bids')
-# d.table_create(db_name,'product')   
-# d.table_create(db_name,'customer') 
-# d.table_create(db_name,'plot') 
+r.db_create(db_name).run()
+d.table_create(db_name,'inventory')
+d.table_create(db_name,'revenue')
+d.table_create(db_name,'price')
+d.table_create(db_name,'bids')
+d.table_create(db_name,'product')   
+d.table_create(db_name,'customer') 
+d.table_create(db_name,'plot') 
 
 
 
